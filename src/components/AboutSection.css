@@ -117,10 +117,35 @@
   font-weight: 700;
 }
 
-.why-choose-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
+
+.why-choose-row {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 40px;
+  margin-bottom: 30px;
+  flex-wrap: nowrap;
+}
+
+@media (max-width: 1100px) {
+  .why-choose-row {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .why-choose-row {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .why-choose-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
 }
 
 .why-choose-card {

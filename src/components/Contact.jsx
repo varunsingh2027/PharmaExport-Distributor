@@ -120,8 +120,8 @@ Time: ${new Date().toLocaleString()}`;
               <h3>Email Us</h3>
               <p>
                 varunsingh04.online@gmail.com<br/>
-                appointments@exporthealthcare.com<br/>
-                emergency@exporthealthcare.com
+                appointment@medco.com<br/>
+                emergency@medco.com
               </p>
             </div>
             

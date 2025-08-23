@@ -3,67 +3,21 @@ import './About.css';
 
 const About = () => {
   return (
-    <section className="about" id="about">
+    <section className="about-medco" id="about">
       <div className="container">
         <div className="about-content">
           <div className="about-text">
-            <h2>About Export Healthcare</h2>
-            <p className="lead">
-              With over two decades of experience in the healthcare industry, 
-              Export Healthcare has been a trusted name in providing quality 
-              medical services and products to our community.
+            <h2>About Medco</h2>
+            <p>
+              Medco is a trusted Indian pharmaceutical exporter with 
+              6+ years of experience in medicine distribution. We 
+              ensure regulatory compliance, quality assurance, and 
+              on-time deliveries to global clients.
             </p>
-            
-            <div className="about-details">
-              <div className="detail-item">
-                <h4>🎯 Our Mission</h4>
-                <p>
-                  To provide accessible, affordable, and quality healthcare 
-                  solutions that improve the well-being of our patients and 
-                  their families.
-                </p>
-              </div>
-              
-              <div className="detail-item">
-                <h4>👁️ Our Vision</h4>
-                <p>
-                  To be the leading healthcare provider in the region, known 
-                  for our commitment to excellence, innovation, and patient care.
-                </p>
-              </div>
-              
-              <div className="detail-item">
-                <h4>💡 Our Values</h4>
-                <ul>
-                  <li>Compassionate Care</li>
-                  <li>Professional Excellence</li>
-                  <li>Ethical Practices</li>
-                  <li>Patient-Centered Approach</li>
-                </ul>
-              </div>
-            </div>
+            <button className="know-more-btn">Know More About Us</button>
           </div>
-          
-          <div className="about-stats">
-            <div className="stat-card">
-              <div className="stat-number">20+</div>
-              <div className="stat-label">Years of Experience</div>
-            </div>
-            
-            <div className="stat-card">
-              <div className="stat-number">10K+</div>
-              <div className="stat-label">Happy Patients</div>
-            </div>
-            
-            <div className="stat-card">
-              <div className="stat-number">50+</div>
-              <div className="stat-label">Medical Products</div>
-            </div>
-            
-            <div className="stat-card">
-              <div className="stat-number">24/7</div>
-              <div className="stat-label">Emergency Support</div>
-            </div>
+          <div className="about-image">
+            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop&crop=face" alt="Medco Leadership" />
           </div>
         </div>
       </div>

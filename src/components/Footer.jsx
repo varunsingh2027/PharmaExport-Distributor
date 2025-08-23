@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-section">
             <div className="footer-logo">
-              <h3>Export Healthcare</h3>
+              <h3>Medco</h3>
               <p>Your Healthcare Partner</p>
             </div>
             <p>
@@ -75,7 +75,7 @@ const Footer = () => {
             <div className="contact-item">
               <span className="icon">📧</span>
               <div>
-                <p>info@exporthealthcare.com</p>
+                <p>info@medco.com</p>
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@ const Footer = () => {
         
         <div className="footer-bottom">
           <div className="footer-bottom-content">
-            <p>&copy; 2025 Export Healthcare. All rights reserved.</p>
+            <p>&copy; 2025 Medco. All rights reserved.</p>
             <div className="footer-bottom-links">
               <a href="#privacy">Privacy Policy</a>
               <a href="#terms">Terms of Service</a>

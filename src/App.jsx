@@ -10,6 +10,8 @@ import Footer from './components/Footer';
 import FloatingButtons from './components/FloatingButtons';
 //import BackendStatus from './components/BackendStatus';
 import './App.css';
+import Certifications from './components/Certifications';
+import GlobalPresence from './components/GlobalPresence';
 
 function App() {
   return (
@@ -17,9 +19,12 @@ function App() {
       <Header />
       <main>
         <Hero />
+             <About />
         <AboutSection />
+        <Certifications />
         <ThirdSection />
-        <About />
+        <GlobalPresence />
+
         <Services />
         <Contact />
       </main>

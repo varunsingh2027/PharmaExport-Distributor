@@ -144,7 +144,7 @@ const Header = () => {
                 <span className="contact-icon">📧</span>
                 <div className="contact-details">
                   <span>MAIL US TODAY</span>
-                  <span>info@exporthealthcare.com</span>
+                  <span>info@medco.com</span>
                 </div>
               </div>
               <div className="contact-item">
@@ -162,8 +162,8 @@ const Header = () => {
                 <div className="logo-container">
                   <div className="logo-plus">✚</div>
                   <div className="logo-text">
-                    <div className="logo-line">EXPORT</div>
-                    <div className="logo-line">HEALTHCARE</div>
+                    <div className="logo-line">MEDCO</div>
+                    <div className="logo-line"></div>
                   </div>
                 </div>
                 <p className="tagline">Your Health, Our Priority</p>
